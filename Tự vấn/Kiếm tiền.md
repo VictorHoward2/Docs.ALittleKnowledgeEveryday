@@ -35,5 +35,8 @@ Cụ thể như sau:
     Nhóm 5 (Tháng 39 đến tháng 43): Mở sổ kỳ hạn từ 1 đến 5 tháng (hưởng lãi 4,4% - 4,6%/năm).
     Tháng 44: Nạp khoản $x$ cuối cùng vào tài khoản và không cần gửi tiết kiệm có kỳ hạn nữa vì đã đến đích.
 
-Kết luận: Nếu cậu cất tiền vào két sắt mà không lấy lãi, cậu sẽ phải để dành khoảng 45,45 triệu đồng/tháng.
-Nhưng nhờ áp dụng chiến lược gửi tiết kiệm với biểu lãi suất của LPBank, số tiền cậu cần trích ra mỗi tháng sẽ giảm xuống chỉ còn khoảng 40,2 triệu đồng.
+Kết luận: Nếu cất tiền vào két sắt mà không lấy lãi, mình sẽ phải để dành khoảng 45,45 triệu đồng/tháng.
+Nhưng nhờ áp dụng chiến lược gửi tiết kiệm với biểu lãi suất của LPBank, số tiền mình cần trích ra mỗi tháng sẽ giảm xuống chỉ còn khoảng 40,2 triệu đồng.
+=> Điều này gần như là không tưởng với 1 người mới ra trường như mình!
+
+=> Chỉ còn cách đầu tư vào bản thân mình thôi!
