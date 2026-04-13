@@ -1,0 +1,46 @@
+graph TD
+    Start(["Bắt đầu: Đánh giá Tình trạng Nền kinh tế (Đơn giản hóa)"]) --> CheckInflation{"IF: Lạm phát cao, Kinh tế nóng?<br>(M cao, P cao)"}
+    
+    %% Nhánh 1: Thắt chặt tiền tệ
+    CheckInflation -- "ĐÚNG (Yes)" --> Tighten[Khởi động: Chính sách Thắt chặt tiền tệ <br> Mục tiêu: Hút tiền mặt M về]
+    Tighten --> T_Action1[Hành động 1: Bán Tín phiếu / Trái phiếu ra thị trường]
+    Tighten --> T_Action2[Hành động 2: Tăng Lãi suất điều hành]
+    Tighten --> T_Action3[Hành động 3: Tăng tỷ lệ Dự trữ bắt buộc của các Bank]
+    
+    T_Action1 --> T_Result((Kết quả: Cung tiền M giảm, Giá cả P hạ nhiệt))
+    T_Action2 --> T_Result
+    T_Action3 --> T_Result
+
+    %% Nhánh 2: Kiểm tra tiếp Tăng trưởng
+    CheckInflation -- "SAI (No)" --> CheckGrowth{"ELSE IF: Suy thoái, Thất nghiệp cao, Doanh nghiệp khát vốn? (Q thấp)"}
+    
+    %% Nhánh 2.1: Nới lỏng tiền tệ
+    CheckGrowth -- "ĐÚNG (Yes)" --> Ease[Khởi động: Chính sách Nới lỏng tiền tệ <br> Mục tiêu: Bơm tiền mặt M ra]
+    Ease --> E_Action1[Hành động 1: Mua Ngoại tệ / Mua lại Tín phiếu]
+    Ease --> E_Action2[Hành động 2: Giảm Lãi suất điều hành]
+    Ease --> E_Action3[Hành động 3: Bơm vốn qua Tái cấp vốn / Tái chiết khấu]
+    
+    E_Action1 --> E_Result((Kết quả: Cung tiền M tăng, Sản xuất Q phục hồi))
+    E_Action2 --> E_Result
+    E_Action3 --> E_Result
+
+    %% Nhánh 3: Cân bằng
+    CheckGrowth -- "SAI (No)" --> Stable[ELSE: Nền kinh tế đang trong vùng an toàn]
+    Stable --> S_Action[Hành động: Duy trì chính sách hiện tại, <br> Quan sát biến động thế giới]
+    S_Action --> S_Result((Kết quả: <br>Cân bằng M * V = P * Q))
+    
+    %% Vòng lặp
+    T_Result --> Delay[Chờ độ trễ chính sách 3-6 tháng]
+    E_Result --> Delay
+    S_Result --> Delay
+    Delay -. "Lặp lại chu kỳ đánh giá" .-> Start
+
+    classDef danger fill:#ffcccc,stroke:#cc0000,stroke-width:2px;
+    classDef success fill:#ccffcc,stroke:#009900,stroke-width:2px;
+    classDef neutral fill:#e6f2ff,stroke:#0066cc,stroke-width:2px;
+    classDef decision fill:#ffcc99,stroke:#e68a00,stroke-width:2px;
+    
+    class CheckInflation,CheckGrowth decision;
+    class Tighten,T_Result danger;
+    class Ease,E_Result success;
+    class Stable,S_Result neutral;
