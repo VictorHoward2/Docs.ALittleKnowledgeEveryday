@@ -33,7 +33,8 @@ Một số thói quen và sở thích của bạn ấy, note lại để mình n
 - Mục tiêu kiếm tiền: Kiếm nhiều tiền để mua bất cứ thứ gì mình muốn => là một người rất thực tế và đầy tham vọng
 - Dự tính 28 tuổi mới lấy chồng cơ
 - Trong lần đi chơi trước, mình có thăm dò một chút, tư tưởng của bạn ấy là con gái đến tuổi thì phải lấy chồng chứ không phải do muốn lấy, bạn ấy muốn ở nhà với bố mẹ
-- Đặc biệt không thích làm việc nhà, có tư tưởng là kiếm tiền thuê người giúp việc (bắt đồng tiền làm việc cho mình)
+- Đặc biệt không thích làm việc nhà, có tư tưởng là kiếm tiền thuê người giúp việc (bắt đồng tiền làm việc cho mình, hợp ý mình)
+- Bạn ấy đọc nhiều sách nha, không rõ là bao nhiêu nhưng chắc chắn là không ít
 
 Những dấu hiệu tích cực (hoặc không):
 - Có thể thức muộn hơn để nhắn tin vs mình :3 (oi những ngày tháng mới quen :3)
